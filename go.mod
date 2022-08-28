@@ -1,4 +1,4 @@
-module ~/main.go
+module github.com/kirbnet/Plunderdex
 
 go 1.17
 
