@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PlunderDex β</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <script src="https://kit.fontawesome.com/dded2534a3.js" crossorigin="anonymous"></script>
+    <style>
+        /* Displaying single item */
+        .singleton-background {
+            background-image: url("./static/icons/{{.Figure.Class}}-{{.Figure.Name}}.png");
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+            /* Full height */
+            height: 100vh;
+            width: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            z-index: -1;
+        }
+        /* Position text in the middle of the page/image */
+        .singleton-body {
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border-radius: 15px 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 66%;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+        }
+        .column {
+          flex: 50%;
+        }
+        ul {
+          text-align: left;
+          list-style: none;
+        }
+        h4 {
+          font-size: x-large;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="menu">
+          <a class="active" href="/"><i class="fa-solid fa-book-skull"></i> Plunderdex <span alt="beta">β</span></a>
+          <div class="submenu">
+            <a href="/class/" class="submenu-item"><i class="fa-solid fa-skull-crossbones"></i> CLASS <i class="fa fa-caret-down"></i></a>
+            <div class="submenu-content">
+              {{range .Classes}}
+              <a href="/class/{{ .}}">{{ .}}</a>
+              {{end}}
+            </div>
+          </div>
+          <div class="submenu">
+            <a href="/color/" class="submenu-item"><i class="fa-solid fa-palette"></i> COLOR <i class="fa fa-caret-down"></i></a>
+            <div class="submenu-content">
+              {{range .Colors}}
+                {{if .}}
+                <a href="/color/{{ .}}">{{ .}}</a>
+                {{end}}
+              {{end}}
+            </div>
+          </div>
+          <div class="submenu">
+            <a href="/plunderfolk/" class="submenu-item"><i class="fa-solid fa-face-smile"></i> PLUNDERFOLK <i class="fa fa-caret-down"></i></a>
+            <div class="submenu-content">
+              {{range .Plunderfolks}}
+                {{if .}}
+                <a href="/plunderfolk/{{.}}">{{ .}}</a>
+                {{end}}
+              {{end}}
+            </div>
+          </div>
+          <div class="submenu">
+            <a href="/wave/" class="submenu-item"><i class="fa-solid fa-flag"></i> WAVE <i class="fa fa-caret-down"></i></a>
+            <div class="submenu-content">
+              {{range .Waves}}
+              <a href="/wave/{{.}}">{{ .}}</a>
+              {{end}}
+            </div>
+          </div>
+          <div class="search-container">
+            <form action="/search" method="GET">
+              <input type="text" placeholder="Search..." name="search" />
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+        
+         
+
+      </header>
+      <div class="singleton-background">
+      </div>
+      <div class="singleton-body">
+        <div class="column">
+        <img src="/static/icons/{{.Figure.Class}}-{{.Figure.Name}}.png" 
+            width="200" height="200" 
+            alt="{{.Figure.Class}} {{.Figure.Name}}" />
+          </div>
+        <div class="column">
+        <h4>Name: {{.Figure.Name}}</h4>
+        <ul class="singleton-details">
+          <li>Class: <a href="/class/{{.Figure.Class}}">{{.Figure.Class}}</a></li>
+          <li>Color: <a href="/color/{{.Figure.Color}}">{{.Figure.Color}}</a></li>
+          <li>Release: <a href="/wave/{{.Figure.Wave}}">{{.Figure.Wave}}</a></li>
+          <li>Plunderfolk: <a href="/plunderfolk/{{.Figure.Plunderfolk}}">{{.Figure.Plunderfolk}}</a></li>
+          <li>Notes: {{.Figure.Notes}}</li>
+          {{if .Figure.Tag}}
+          <li>Tag: <a href="/tag/{{.Figure.Tag}}">{{.Figure.Tag}}</a></li>
+          {{end}}
+        </ul>
+      </div>
+    </div>
+        <div class="footer">
+          <p><i class="fa-solid fa-book-skull"></i> Plunderdex is a checklist/database for exploring the Plunderverse. You can sort the library of Plunderlings, Plunderlongs, Plunderstrongs, and Accessories. This is a work by a fan, so for more information, go to the official home of Plunderlings at <a href="https://www.plunderlings.com/">Plunderlings.com</a></a></p>
+        </div>
+    </main>
+  </body>
+</html>

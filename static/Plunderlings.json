@@ -1,0 +1,347 @@
+{
+    "plunderlings": [
+        {
+            "name":"Gobbler",
+            "class":"Berserker",
+            "color":"green",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Mango",
+            "class":"Berserker",
+            "color":"orange",
+            "plunderfolk":"Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Pyke",
+            "class":"Berserker",
+            "color":"blue",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Spurt",
+            "class":"Berserker",
+            "color":"blue",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Ash",
+            "class":"Captain",
+            "color":"dark gray",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Blacjak",
+            "class":"Captain",
+            "color":"dark gray",
+            "plunderfolk":"Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Ojoe",
+            "class":"Captain",
+            "color":"light gray",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Teel",
+            "class":"Captain",
+            "color":"teal",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Cayo",
+            "class":"Cursed",
+            "color":"blue",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Fury",
+            "class":"Cursed",
+            "color":"red",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Idol",
+            "class":"Cursed",
+            "color":"gold",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Naufrag",
+            "class":"Cursed",
+            "color":"red",
+            "plunderfolk":"Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Arctic",
+            "class":"Drench",
+            "color":"transparent crystal",
+            "notes":"SDCC2022 Exclusive with Entertainment Earth",
+            "plunderfolk":"Plunderling",
+            "wave": "SDCC2022 Exclusive",
+            "tag": "Exclusive"
+        },
+        {
+            "name":"Gills",
+            "class":"Drench",
+            "color":"transparent blue",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "tag": "Exclusive",
+            "notes":"Kickstarter Exclusive"
+        },
+        {
+            "name":"Bubbler",
+            "class":"Drench",
+            "color":"transparent blue",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "tag": "Exclusive",
+            "notes":"Kickstarter Exclusive"
+        },
+        {
+            "name":"Koral",
+            "class":"Drench",
+            "color":"transparent rose",
+            "plunderfolk":"Plunderling",
+            "wave": "New Drench",
+            "tag": "Exclusive",
+            "notes":"BBTS Shared Exclusive"
+        },
+        {
+            "name":"Maru",
+            "class":"Drench",
+            "color":"transparent turquoise",
+            "plunderfolk":"Plunderling",
+            "wave": "New Drench",
+            "tag": "Exclusive",
+            "notes":"BBTS Shared Exclusive"
+        },
+        {
+            "name":"Swump",
+            "class":"Drench",
+            "color":"transparent green",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "tag": "Exclusive",
+            "notes":"Kickstarter Exclusive"
+        },
+        {
+            "name":"Typhoon",
+            "class":"Drench",
+            "color":"transparent green",
+            "plunderfolk":"Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "tag": "Exclusive",
+            "notes":"Kickstarter Exclusive"
+        },
+        {
+            "name":"Floot",
+            "class":"Fawn",
+            "color":"mint green",
+            "plunderfolk":"Plunderling",
+            "wave": "Fawns"
+        },
+        {
+            "name":"Grotto",
+            "class":"Fawn",
+            "color":"berry red",
+            "plunderfolk":"Plunderling",
+            "wave": "Fawns"
+        },
+        {
+            "name":"Marsh",
+            "class":"Fawn",
+            "color":"mint green",
+            "notes":"Unreleased",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "tag": "Unreleased"
+        },
+        {
+            "name":"Roam",
+            "class":"Fawn",
+            "color":"berry red",
+            "notes":"Unreleased",
+            "plunderfolk":"Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "tag": "Unreleased"
+        },
+        {
+            "name":"8-Ball",
+            "class":"Feral",
+            "color":"white",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Cheddar",
+            "class":"Feral",
+            "color":"orange",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Zombone",
+            "class":"Feral",
+            "color":"white",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Goyle",
+            "class":"Nomad",
+            "color":"light gray",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Poncho",
+            "class":"Nomad",
+            "color":"light gray",
+            "plunderfolk":"Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Swash",
+            "class":"Nomad",
+            "color":"dark gray",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Tuff",
+            "class":"Nomad",
+            "color":"lilac",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Ace",
+            "class":"Raider",
+            "color":"teal",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Blitz",
+            "class":"Raider",
+            "color":"green",
+            "plunderfolk":"Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Fwush",
+            "class":"Raider",
+            "color":"blue",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Gank",
+            "class":"Raider",
+            "color":"green",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Mambo",
+            "class":"Shaman",
+            "color":"lilac",
+            "tag":"Unreleased",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Plume",
+            "class":"Shaman",
+            "color":"blue",
+            "tag":"Unreleased",
+            "plunderfolk":"Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Gally",
+            "class":"Tinker",
+            "color":"pink",
+            "tag":"Unreleased",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Knicknack",
+            "class":"Tinker",
+            "color":"yellow",
+            "tag":"Unreleased",
+            "plunderfolk":"Plunderling",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Rusty",
+            "class":"Tinker",
+            "color":"orange",
+            "plunderfolk":"Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Skiff",
+            "class":"Tinker",
+            "color":"teal",
+            "tag":"Unreleased",
+            "plunderfolk":"Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Boom Crate",
+            "class":"Accessory",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Hatchling",
+            "class":"Accessory",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Iron Crate",
+            "class":"Accessory",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Leather Crate",
+            "class":"Accessory",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Muscle Crate",
+            "class":"Accessory",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name":"Steel Crate",
+            "class":"Accessory",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Walloping Hands",
+            "class":"Accessory",
+            "wave": "Kickstarter: Plunderling"
+        },
+        {
+            "name":"Wood Crate",
+            "class":"Accessory",
+            "wave": "Kickstarter: Plunderling"
+        }     
+    ]
+}
