@@ -31,21 +31,21 @@
         {
             "name":"Ash",
             "class":"Captain",
-            "color":"dark gray",
+            "color":"black",
             "plunderfolk":"Plunderling",
             "wave": "Kickstarter: Plunderling"
         },
         {
             "name":"Blacjak",
             "class":"Captain",
-            "color":"dark gray",
+            "color":"black",
             "plunderfolk":"Plunderstrong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong"
         },
         {
             "name":"Ojoe",
             "class":"Captain",
-            "color":"light gray",
+            "color":"gray",
             "plunderfolk":"Plunderlong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong"
         },
@@ -96,7 +96,7 @@
         {
             "name":"Gills",
             "class":"Drench",
-            "color":"transparent blue",
+            "color":"azure",
             "plunderfolk":"Plunderlong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong",
             "tag": "Exclusive",
@@ -105,7 +105,7 @@
         {
             "name":"Bubbler",
             "class":"Drench",
-            "color":"transparent blue",
+            "color":"azure",
             "plunderfolk":"Plunderling",
             "wave": "Kickstarter: Plunderling",
             "tag": "Exclusive",
@@ -132,7 +132,7 @@
         {
             "name":"Swump",
             "class":"Drench",
-            "color":"transparent green",
+            "color":"emerald",
             "plunderfolk":"Plunderling",
             "wave": "Kickstarter: Plunderling",
             "tag": "Exclusive",
@@ -141,7 +141,7 @@
         {
             "name":"Typhoon",
             "class":"Drench",
-            "color":"transparent green",
+            "color":"emerald",
             "plunderfolk":"Plunderstrong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong",
             "tag": "Exclusive",
@@ -150,21 +150,21 @@
         {
             "name":"Floot",
             "class":"Fawn",
-            "color":"mint green",
+            "color":"mint",
             "plunderfolk":"Plunderling",
             "wave": "Fawns"
         },
         {
             "name":"Grotto",
             "class":"Fawn",
-            "color":"berry red",
+            "color":"berry",
             "plunderfolk":"Plunderling",
             "wave": "Fawns"
         },
         {
             "name":"Marsh",
             "class":"Fawn",
-            "color":"mint green",
+            "color":"mint",
             "notes":"Unreleased",
             "plunderfolk":"Plunderlong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong",
@@ -173,7 +173,7 @@
         {
             "name":"Roam",
             "class":"Fawn",
-            "color":"berry red",
+            "color":"berry",
             "notes":"Unreleased",
             "plunderfolk":"Plunderstrong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong",
@@ -203,28 +203,28 @@
         {
             "name":"Goyle",
             "class":"Nomad",
-            "color":"light gray",
+            "color":"gray",
             "plunderfolk":"Plunderling",
             "wave": "Kickstarter: Plunderling"
         },
         {
             "name":"Poncho",
             "class":"Nomad",
-            "color":"light gray",
+            "color":"gray",
             "plunderfolk":"Plunderstrong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong"
         },
         {
             "name":"Swash",
             "class":"Nomad",
-            "color":"dark gray",
+            "color":"black",
             "plunderfolk":"Plunderlong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong"
         },
         {
             "name":"Tuff",
             "class":"Nomad",
-            "color":"lilac",
+            "color":"lavender",
             "plunderfolk":"Plunderling",
             "wave": "Kickstarter: Plunderling"
         },
@@ -259,7 +259,7 @@
         {
             "name":"Mambo",
             "class":"Shaman",
-            "color":"lilac",
+            "color":"lavender",
             "tag":"Unreleased",
             "plunderfolk":"Plunderlong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong"
@@ -309,7 +309,7 @@
             "wave": "Kickstarter: Plunderlong and Plunderstrong"
         },
         {
-            "name":"Hatchling",
+            "name":"Hatchling Crate",
             "class":"Accessory",
             "wave": "Kickstarter: Plunderling"
         },
