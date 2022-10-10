@@ -1,347 +1,704 @@
 {
     "plunderlings": [
         {
-            "name":"Gobbler",
-            "class":"Berserker",
-            "color":"green",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
+            "name": "Gobbler",
+            "class": "Berserker",
+            "color": "green",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Horned Helmet",
+                "Double Bandolier",
+                "Two Axes",
+                "Conch Shell",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Mango",
-            "class":"Berserker",
-            "color":"orange",
-            "plunderfolk":"Plunderstrong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+            "name": "Mango",
+            "class": "Berserker",
+            "color": "orange",
+            "plunderfolk": "Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Luchador Mask",
+                "Large Gladiator Harness",
+                "Gilded Axe",
+                "Large Open Hands",
+                "Large Gripping Hands",
+                "Small Walloping Fists"
+            ]
         },
         {
-            "name":"Pyke",
-            "class":"Berserker",
-            "color":"blue",
-            "plunderfolk":"Plunderlong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+            "name": "Pyke",
+            "class": "Berserker",
+            "color": "blue",
+            "plunderfolk": "Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Pierced Morion Helmet",
+                "Small Double Bandolier",
+                "Harpoon Spear",
+                "Slingshot Rifle",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Spurt",
-            "class":"Berserker",
-            "color":"blue",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
+            "name": "Spurt",
+            "class": "Berserker",
+            "color": "blue",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Conquistador Helmet",
+                "Double Bandolier",
+                "Harpoon Spear",
+                "Conch Shell",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Ash",
-            "class":"Captain",
-            "color":"black",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
+            "name": "Ash",
+            "class": "Captain",
+            "color": "black",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Top Hat",
+                "Vest",
+                "Telescope",
+                "Bastard Sword",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Blacjak",
-            "class":"Captain",
-            "color":"black",
-            "plunderfolk":"Plunderstrong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+            "name": "Blacjak",
+            "class": "Captain",
+            "color": "black",
+            "plunderfolk": "Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Bicorn Pirate Hat",
+                "Large Captain's Jacket",
+                "Handheld Cannon",
+                "Large Open Hands",
+                "Large Gripping Hands",
+                "Small Walloping Fists"
+            ]
         },
         {
-            "name":"Ojoe",
-            "class":"Captain",
-            "color":"gray",
-            "plunderfolk":"Plunderlong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+            "name": "Ojoe",
+            "class": "Captain",
+            "color": "gray",
+            "plunderfolk": "Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Eyepatch",
+                "Small Captain's Robes",
+                "Hook Hand",
+                "Harpoon Hand",
+                "Blade Hand",
+                "Slingshot Pistol",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Teel",
-            "class":"Captain",
-            "color":"teal",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
+            "name": "Teel",
+            "class": "Captain",
+            "color": "teal",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Bicorn Pirate Hat",
+                "Vest",
+                "Telescope",
+                "Slingshot Rifle",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Cayo",
-            "class":"Cursed",
-            "color":"blue",
-            "plunderfolk":"Plunderlong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+            "name": "Cayo",
+            "class": "Cursed",
+            "color": "blue",
+            "plunderfolk": "Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Seashell Helmet",
+                "Walking Stick",
+                "Lango's Claw Spear",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Fury",
-            "class":"Cursed",
-            "color":"red",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
+            "name": "Fury",
+            "class": "Cursed",
+            "color": "red",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Bicorn Admiral Hat",
+                "Robes",
+                "Anchor Spear",
+                "Chalice",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Idol",
-            "class":"Cursed",
-            "color":"gold",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
+            "name": "Idol",
+            "class": "Cursed",
+            "color": "gold",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Crown",
+                "Robes",
+                "Cursed Golden Staff",
+                "Chalice",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Naufrag",
-            "class":"Cursed",
-            "color":"red",
-            "plunderfolk":"Plunderstrong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+            "name": "Naufrag",
+            "class": "Cursed",
+            "color": "red",
+            "plunderfolk": "Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Nautilus Hat",
+                "Large Captain's Jacket",
+                "Two Crab Claws",
+                "Large Open Hands",
+                "Large Gripping Hands",
+                "Small Walloping Fists"
+            ]
         },
         {
-            "name":"Arctic",
-            "class":"Drench",
-            "color":"transparent crystal",
-            "notes":"SDCC2022 Exclusive with Entertainment Earth",
-            "plunderfolk":"Plunderling",
+            "name": "Abyss",
+            "class": "Drench",
+            "color": "transparent purple",
+            "notes": "Exclusive to NJToyCon, with extras available at Legions Con 2022 and at LegionsShop.com",
+            "plunderfolk": "Plunderling",
+            "wave": "NJToyCon Exclusive",
+            "tag": "Exclusive",
+            "accessories": [
+                "Horned Helmet",
+                "Turtle Shell Backpack",
+                "Permafrost Anchor Spear",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Arctic",
+            "class": "Drench",
+            "color": "transparent crystal",
+            "notes": "SDCC2022 Exclusive with Entertainment Earth",
+            "plunderfolk": "Plunderling",
             "wave": "SDCC2022 Exclusive",
-            "tag": "Exclusive"
+            "tag": "Exclusive",
+            "accessories": [
+                "Conquistador Helmet",
+                "Brinicle Spear",
+                "Necklace",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Gills",
-            "class":"Drench",
-            "color":"azure",
-            "plunderfolk":"Plunderlong",
+            "name": "Gills",
+            "class": "Drench",
+            "color": "azure",
+            "plunderfolk": "Plunderlong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong",
             "tag": "Exclusive",
-            "notes":"Kickstarter Exclusive"
+            "notes": "Kickstarter Exclusive",
+            "accessories": [
+                "Anchor attached to Chain",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Bubbler",
-            "class":"Drench",
-            "color":"azure",
-            "plunderfolk":"Plunderling",
+            "name": "Bubbler",
+            "class": "Drench",
+            "color": "azure",
+            "plunderfolk": "Plunderling",
             "wave": "Kickstarter: Plunderling",
             "tag": "Exclusive",
-            "notes":"Kickstarter Exclusive"
+            "notes": "Kickstarter Exclusive",
+            "accessories": [
+                "Trident",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Koral",
-            "class":"Drench",
-            "color":"transparent rose",
-            "plunderfolk":"Plunderling",
+            "name": "Koral",
+            "class": "Drench",
+            "color": "transparent rose",
+            "plunderfolk": "Plunderling",
             "wave": "New Drench",
             "tag": "Exclusive",
-            "notes":"BBTS Shared Exclusive"
+            "notes": "BBTS Shared Exclusive",
+            "accessories": [
+                "Lilypad Hat",
+                "Primitive Fishing Spear",
+                "Reed Mask",
+                "Turtle Shell Backpack",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Maru",
-            "class":"Drench",
-            "color":"transparent turquoise",
-            "plunderfolk":"Plunderling",
+            "name": "Maru",
+            "class": "Drench",
+            "color": "transparent turquoise",
+            "plunderfolk": "Plunderling",
             "wave": "New Drench",
             "tag": "Exclusive",
-            "notes":"BBTS Shared Exclusive"
+            "notes": "BBTS Shared Exclusive",
+            "accessories": [
+                "Lilypad Hat",
+                "Primitive Fishing Spear",
+                "Necklace",
+                "Turtle Shell Backpack",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Swump",
-            "class":"Drench",
-            "color":"emerald",
-            "plunderfolk":"Plunderling",
+            "name": "Swump",
+            "class": "Drench",
+            "color": "emerald",
+            "plunderfolk": "Plunderling",
             "wave": "Kickstarter: Plunderling",
             "tag": "Exclusive",
-            "notes":"Kickstarter Exclusive"
+            "notes": "Kickstarter Exclusive",
+            "accessories": [
+                "Trident",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Typhoon",
-            "class":"Drench",
-            "color":"emerald",
-            "plunderfolk":"Plunderstrong",
+            "name": "Typhoon",
+            "class": "Drench",
+            "color": "emerald",
+            "plunderfolk": "Plunderstrong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong",
             "tag": "Exclusive",
-            "notes":"Kickstarter Exclusive"
+            "notes": "Kickstarter Exclusive",
+            "accessories": [
+                "Small Fin Mohawk",
+                "Two Scale Bracers",
+                "Sawfish Sword",
+                "Large Open Hands",
+                "Large Gripping Hands",
+                "Small Walloping Fists"
+            ]
         },
         {
-            "name":"Floot",
-            "class":"Fawn",
-            "color":"mint",
-            "plunderfolk":"Plunderling",
-            "wave": "Fawns"
+            "name": "Floot",
+            "class": "Fawn",
+            "color": "mint",
+            "plunderfolk": "Plunderling",
+            "wave": "Fawns",
+            "accessories": [
+                "Curved Blade",
+                "Double Flute",
+                "Lower Body with Two Hooved Legs",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Grotto",
-            "class":"Fawn",
-            "color":"berry",
-            "plunderfolk":"Plunderling",
-            "wave": "Fawns"
+            "name": "Grotto",
+            "class": "Fawn",
+            "color": "berry",
+            "plunderfolk": "Plunderling",
+            "wave": "Fawns",
+            "accessories": [
+                "Curved Blade",
+                "Double Flute",
+                "Lower Body with Two Hooved Legs",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Marsh",
-            "class":"Fawn",
-            "color":"mint",
-            "notes":"Unreleased",
-            "plunderfolk":"Plunderlong",
+            "name": "Marsh",
+            "class": "Fawn",
+            "color": "mint",
+            "notes": "Unreleased",
+            "plunderfolk": "Plunderlong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong",
-            "tag": "Unreleased"
+            "tag": "Unreleased",
+            "accessories": [
+                "Lower Body with Four Hooved Legs",
+                "Lance",
+                "Vine Harp",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
         },
         {
-            "name":"Roam",
-            "class":"Fawn",
-            "color":"berry",
-            "notes":"Unreleased",
-            "plunderfolk":"Plunderstrong",
+            "name": "Roam",
+            "class": "Fawn",
+            "color": "berry",
+            "notes": "Unreleased",
+            "plunderfolk": "Plunderstrong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong",
-            "tag": "Unreleased"
+            "tag": "Unreleased",
+            "accessories": [
+                "Lower Body with Two Hooved Legs",
+                "Massive Curved Blade",
+                "Two Bongos",
+                "Large Open Hands",
+                "Large Gripping Hands",
+                "Small Walloping Fists"
+            ]
         },
         {
-            "name":"8-Ball",
-            "class":"Feral",
-            "color":"white",
-            "plunderfolk":"Plunderlong",
+            "name": "8-Ball",
+            "class": "Feral",
+            "color": "white",
+            "plunderfolk": "Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Cannoneer Helmet",
+                "Small Vest",
+                "Two Bundles of Dynamite",
+                "Shell Torch w/ removable Fire Effect",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Cheddar",
+            "class": "Feral",
+            "color": "orange",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Mohawk",
+                "Baseball Bat",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Zombone",
+            "class": "Feral",
+            "color": "white",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Skull Mask",
+                "Bone Club",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Goyle",
+            "class": "Nomad",
+            "color": "gray",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Hood",
+                "Cape",
+                "Two Daggers",
+                "Black Frog",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Poncho",
+            "class": "Nomad",
+            "color": "gray",
+            "plunderfolk": "Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Matador Hat",
+                "Large Poncho",
+                "Two Cannon-Pistols",
+                "Large Open Hands",
+                "Large Gripping Hands",
+                "Small Walloping Fists"
+            ]
+        },
+        {
+            "name": "Swash",
+            "class": "Nomad",
+            "color": "black",
+            "plunderfolk": "Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Cavalier Hat",
+                "Small Nomad Cape",
+                "Rapier Sword",
+                "Cuatro Guitar",
+                "Small Leather Cuffs",
+                "Pair of Small Gloved Open Hands",
+                "Pair of Small Gloved Gripping Hands"
+            ]
+        },
+        {
+            "name": "Tuff",
+            "class": "Nomad",
+            "color": "lavender",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Wizard Hat",
+                "Cape",
+                "Mallet",
+                "Red Frog",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Ace",
+            "class": "Raider",
+            "color": "teal",
+            "plunderfolk": "Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Bowler Cap",
+                "Small Leather Sash",
+                "Two Cutlasses",
+                "Two Daggers",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Blitz",
+            "class": "Raider",
+            "color": "green",
+            "plunderfolk": "Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Blue Bandana",
+                "Large Leather Sash",
+                "Plunderstrong Dagger",
+                "Chicken Drumstick",
+                "Large Open Hands",
+                "Large Gripping Hands",
+                "Small Walloping Fists"
+            ]
+        },
+        {
+            "name": "Fwush",
+            "class": "Raider",
+            "color": "blue",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Tricorn Hat",
+                "Leather Sash",
+                "Scimitar",
+                "Slingshot Pistol",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Gank",
+            "class": "Raider",
+            "color": "green",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Red Bandana",
+                "Leather Sash",
+                "Scimitar",
+                "Slingshot Pistol",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Mambo",
+            "class": "Shaman",
+            "color": "lavender",
+            "tag": "Unreleased",
+            "plunderfolk": "Plunderlong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong"
         },
         {
-            "name":"Cheddar",
-            "class":"Feral",
-            "color":"orange",
-            "plunderfolk":"Plunderling",
+            "name": "Plume",
+            "class": "Shaman",
+            "color": "blue",
+            "tag": "Unreleased",
+            "plunderfolk": "Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong"
+        },
+        {
+            "name": "Gally",
+            "class": "Tinker",
+            "color": "pink",
+            "tag": "Unreleased",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Cavalier Hat",
+                "White Vest",
+                "Battle-Damanged Shield",
+                "Wooden Mug",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Knicknack",
+            "class": "Tinker",
+            "color": "yellow",
+            "tag": "Unreleased",
+            "plunderfolk": "Plunderling",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Safety Goggles",
+                "Brown Vest",
+                "Bundle of Dynamite",
+                "Wrench",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Rusty",
+            "class": "Tinker",
+            "color": "orange",
+            "plunderfolk": "Plunderlong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Two Magnetic Conical Helmets",
+                "Two Wrenches",
+                "Monkey Wrench",
+                "Pair of Small Open Hands",
+                "Pair of Small Gripping Hands"
+            ]
+        },
+        {
+            "name": "Skiff",
+            "class": "Tinker",
+            "color": "teal",
+            "tag": "Unreleased",
+            "plunderfolk": "Plunderstrong",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Fishing Hat",
+                "Large Leather Sash",
+                "Cannon-Arm",
+                "Fishing Rod",
+                "Sugar Rum Bottle",
+                "Large Open Hands",
+                "Large Gripping Hands",
+                "Small Walloping Fists"
+            ]
+        },
+        {
+            "name": "Boom Crate",
+            "class": "Accessory",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Explosion FX Ammo Adapter",
+                "Resting Ammo Adapter",
+                "Bowling Ball",
+                "Stone Ball",
+                "Coconut Ball",
+                "Spiked Ball"
+            ]
+        },
+        {
+            "name": "Hatchling Crate",
+            "class": "Accessory",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Two Hatchlings Bodies",
+                "Pair of Small Walloping Hands"
+            ]
+        },
+        {
+            "name": "Iron Crate",
+            "class": "Accessory",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Pierced Morion Helmet",
+                "Small Double Bandolier",
+                "Rapier Sword",
+                "Two Cutlasses",
+                "Two Hand Axes"
+            ]
+        },
+        {
+            "name": "Leather Crate",
+            "class": "Accessory",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Small Bowler Cap",
+                "Small Mask",
+                "Small Eyepatch",
+                "Small Leather Sash",
+                "Pair of Small Gloved Open Hands",
+                "Pair of Small Gloved Gripping Hands",
+                "Pair of Small Gloved Walloping Hands",
+                "Three Pairs of Small Leather Cuffs"
+            ]
+        },
+        {
+            "name": "Muscle Crate",
+            "class": "Accessory",
+            "wave": "Kickstarter: Plunderlong and Plunderstrong",
+            "accessories": [
+                "Two Large Walloping Hands",
+                "Two Large Pinching Hands to Grip Small Items",
+                "Two Large Magnetic Grabbing Hands to Hold Cannonballs and Large Heads"
+            ]
+        },
+        {
+            "name": "Steel Crate",
+            "class": "Accessory",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Conquistador Helmet",
+                "Horned Helmet",
+                "Two Daggers",
+                "Two Wrenches",
+                "Bastard Sword",
+                "Scimitar"
+            ]
+        },
+        {
+            "name": "Walloping Hands",
+            "class": "Accessory",
             "wave": "Kickstarter: Plunderling"
         },
         {
-            "name":"Zombone",
-            "class":"Feral",
-            "color":"white",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Goyle",
-            "class":"Nomad",
-            "color":"gray",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Poncho",
-            "class":"Nomad",
-            "color":"gray",
-            "plunderfolk":"Plunderstrong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Swash",
-            "class":"Nomad",
-            "color":"black",
-            "plunderfolk":"Plunderlong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Tuff",
-            "class":"Nomad",
-            "color":"lavender",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Ace",
-            "class":"Raider",
-            "color":"teal",
-            "plunderfolk":"Plunderlong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Blitz",
-            "class":"Raider",
-            "color":"green",
-            "plunderfolk":"Plunderstrong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Fwush",
-            "class":"Raider",
-            "color":"blue",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Gank",
-            "class":"Raider",
-            "color":"green",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Mambo",
-            "class":"Shaman",
-            "color":"lavender",
-            "tag":"Unreleased",
-            "plunderfolk":"Plunderlong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Plume",
-            "class":"Shaman",
-            "color":"blue",
-            "tag":"Unreleased",
-            "plunderfolk":"Plunderstrong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Gally",
-            "class":"Tinker",
-            "color":"pink",
-            "tag":"Unreleased",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Knicknack",
-            "class":"Tinker",
-            "color":"yellow",
-            "tag":"Unreleased",
-            "plunderfolk":"Plunderling",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Rusty",
-            "class":"Tinker",
-            "color":"orange",
-            "plunderfolk":"Plunderlong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Skiff",
-            "class":"Tinker",
-            "color":"teal",
-            "tag":"Unreleased",
-            "plunderfolk":"Plunderstrong",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Boom Crate",
-            "class":"Accessory",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Hatchling Crate",
-            "class":"Accessory",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Iron Crate",
-            "class":"Accessory",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Leather Crate",
-            "class":"Accessory",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Muscle Crate",
-            "class":"Accessory",
-            "wave": "Kickstarter: Plunderlong and Plunderstrong"
-        },
-        {
-            "name":"Steel Crate",
-            "class":"Accessory",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Walloping Hands",
-            "class":"Accessory",
-            "wave": "Kickstarter: Plunderling"
-        },
-        {
-            "name":"Wood Crate",
-            "class":"Accessory",
-            "wave": "Kickstarter: Plunderling"
-        }     
+            "name": "Wood Crate",
+            "class": "Accessory",
+            "wave": "Kickstarter: Plunderling",
+            "accessories": [
+                "Two Slingshot Pistols",
+                "Two Wooden Mugs",
+                "Tricorn Hat",
+                "Bandana",
+                "Slingshot Rifle",
+                "Battle-Damanged Shield"
+            ]
+        }
     ]
 }

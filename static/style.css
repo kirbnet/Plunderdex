@@ -1,9 +1,17 @@
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
     background-color: #f1f1f1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page-content {
+    position: relative;
+    width: 100%;
+    float: left;
 }
 
 /* Top Menu */
@@ -13,6 +21,7 @@ header {
 
 .menu {
     background-color: #63b521ff;
+    width: 100%;
 }
 
 .menu a {
@@ -33,10 +42,6 @@ header {
 .menu a.active {
     background-color: #3d9153ff;
     color: white;
-}
-
-.menu .search-container {
-    float: right;
 }
 
 .menu input[type=text] {
@@ -83,8 +88,9 @@ header {
     margin: 0;
 }
 
-.menu a:hover, .submenu:hover .submenu-item {
-    background-color:#3d9153ff;
+.menu a:hover,
+.submenu:hover .submenu-item {
+    background-color: #3d9153ff;
 }
 
 .submenu-content {
@@ -106,14 +112,17 @@ header {
     text-decoration: none;
     min-width: 160px;
 }
+
 .submenu-content a:hover {
     background-color: #eee;
     color: black;
 }
+
 /* display the submenu */
 .submenu:hover .submenu-content {
     display: block;
 }
+
 /* footer */
 .footer {
     left: 0;
@@ -123,23 +132,46 @@ header {
     background-color: #333;
     color: #ccc;
     margin: 0;
-    padding: 20px 0;
+    padding: 0;
+    float: left;
+    position: fixed;
 }
-.footer p {
-    margin: 2px;
-}
+
+.footer p {}
+
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
-    .menu a, .menu input[type=text] {
-      float: none;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 14px;
-    }
+
+    .menu a,
     .menu input[type=text] {
-      border: 1px solid #ccc;
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .menu input[type=text] {
+        border: 1px solid #ccc;
+    }
+
+    .menu .search-container {
+        display: none;
+    }
+
+    /* footer */
+    .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        color: #ccc;
+        margin: 0;
+        padding: 0;
+        float: left;
+        position: relative;
     }
 }
 
@@ -162,6 +194,7 @@ header {
 .image-gallery ul {
     list-style-type: none;
 }
+
 .image-gallery li {
     flex-basis: 100px;
     position: relative;
@@ -179,15 +212,12 @@ header {
     max-height: 100px;
     margin: 0 auto;
 }
-/*
-.container img {
-     border-radius: 10%; 
-}
-*/
+
 .container .content {
     position: absolute;
     bottom: 0;
-    background: rgb(0, 0, 0); /*In case alpha is not supported */
+    background: rgb(0, 0, 0);
+    /*In case alpha is not supported */
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
     color: #f1f1f1;
@@ -205,12 +235,73 @@ header {
 }
 
 a {
-    color:#ccc;
+    color: #ccc;
 }
+
 /* Special Classes for Special Tags */
 .Exclusive {
     border: 5px solid #ffca4bff;
 }
+
 .Unreleased {
     opacity: 0.66;
+}
+
+/* Position text in the middle of the page/image */
+.singleton-body {
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.3);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    z-index: 100;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+}
+
+h4 {
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px) {
+    .singleton-body {
+        background: rgb(0, 0, 0);
+        /* Fallback color */
+        background: rgba(0, 0, 0, 0.4);
+        /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        top: auto;
+        left: 50%;
+        z-index: 2;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        border-radius: 0%;
+        float: left;
+    }
+
+    .column {
+        width: 100%;
+        float: left;
+    }
+
+    .column:after {
+        clear: both;
+        content: "";
+        display: table;
+    }
 }

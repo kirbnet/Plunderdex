@@ -1,93 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>PlunderDex - online Plunderlings database</title>
-    <link rel="stylesheet" href="/static/style.css" />
-    <script src="https://kit.fontawesome.com/dded2534a3.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <main>
-      <header>
-        <div class="menu">
-          <a class="active" href="/"><i class="fa-solid fa-book-skull"></i> Plunderdex</a>
-          <div class="submenu">
-            <a href="/class/" class="submenu-item"><i class="fa-solid fa-skull-crossbones"></i> CLASS <i class="fa fa-caret-down"></i></a>
-            <div class="submenu-content">
-              {{range .Classes}}
-              <a href="/class/{{ .}}">{{ .}}</a>
-              {{end}}
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>PlunderDex - online Plunderlings database</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="https://kit.fontawesome.com/dded2534a3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="menu">
+        <a class="active" href="/"><i class="fa-solid fa-book-skull"></i> Plunderdex</a>
+        <div class="submenu">
+          <a href="/class/" class="submenu-item"><i class="fa-solid fa-skull-crossbones"></i> CLASS <i
+              class="fa fa-caret-down"></i></a>
+          <div class="submenu-content">
+            {{range .Classes}}
+            <a href="/class/{{ .}}">{{ .}}</a>
+            {{end}}
           </div>
-          <div class="submenu">
-            <a href="/color/" class="submenu-item"><i class="fa-solid fa-palette"></i> COLOR <i class="fa fa-caret-down"></i></a>
-            <div class="submenu-content">
-              {{range .Colors}}
-                {{if .}}
-                <a href="/color/{{ .}}">{{ .}}</a>
-                {{end}}
-              {{end}}
-            </div>
+        </div>
+        <div class="submenu">
+          <a href="/color/" class="submenu-item"><i class="fa-solid fa-palette"></i> COLOR <i
+              class="fa fa-caret-down"></i></a>
+          <div class="submenu-content">
+            {{range .Colors}}
+            {{if .}}
+            <a href="/color/{{ .}}">{{ .}}</a>
+            {{end}}
+            {{end}}
           </div>
-          <div class="submenu">
-            <a href="/plunderfolk/" class="submenu-item"><i class="fa-solid fa-face-smile"></i> PLUNDERFOLK <i class="fa fa-caret-down"></i></a>
-            <div class="submenu-content">
-              {{range .Plunderfolks}}
-                {{if .}}
-                <a href="/plunderfolk/{{.}}">{{ .}}</a>
-                {{end}}
-              {{end}}
-            </div>
+        </div>
+        <div class="submenu">
+          <a href="/plunderfolk/" class="submenu-item"><i class="fa-solid fa-face-smile"></i> PLUNDERFOLK <i
+              class="fa fa-caret-down"></i></a>
+          <div class="submenu-content">
+            {{range .Plunderfolks}}
+            {{if .}}
+            <a href="/plunderfolk/{{.}}">{{ .}}</a>
+            {{end}}
+            {{end}}
           </div>
-          <div class="submenu">
-            <a href="/wave/" class="submenu-item"><i class="fa-solid fa-flag"></i> WAVE <i class="fa fa-caret-down"></i></a>
-            <div class="submenu-content">
-              {{range .Waves}}
-              <a href="/wave/{{.}}">{{ .}}</a>
-              {{end}}
-            </div>
+        </div>
+        <div class="submenu">
+          <a href="/wave/" class="submenu-item"><i class="fa-solid fa-flag"></i> WAVE <i
+              class="fa fa-caret-down"></i></a>
+          <div class="submenu-content">
+            {{range .Waves}}
+            <a href="/wave/{{.}}">{{ .}}</a>
+            {{end}}
           </div>
-          <div class="submenu">
-            <a href="/tag/" class="submenu-item"><i class="fa-solid fa-hashtag"></i> TAG <i class="fa fa-caret-down"></i></a>
-            <div class="submenu-content">
-              {{range .Tags}}
-                {{if .}}
-                <a href="/tag/{{.}}">{{ .}}</a>
-                {{end}}
-              {{end}}
-            </div>
+        </div>
+        <div class="submenu">
+          <a href="/tag/" class="submenu-item"><i class="fa-solid fa-hashtag"></i> TAG <i
+              class="fa fa-caret-down"></i></a>
+          <div class="submenu-content">
+            {{range .Tags}}
+            {{if .}}
+            <a href="/tag/{{.}}">{{ .}}</a>
+            {{end}}
+            {{end}}
           </div>
-          <!-- <div class="search-container">
+        </div>
+        <!-- <div class="search-container">
             <form action="/search" method="GET">
               <input type="text" placeholder="Search..." name="search" />
               <button type="submit"><i class="fa fa-search"></i></button>
             </form>
           </div> -->
-        </div>
-      </header>
+      </div>
+    </header>
+    <div class="page-content">
       <ul class="image-gallery">
-          {{range .Lings.Plunderlings}}
-          <li>
+        {{range .Lings.Plunderlings}}
+        <li>
           <div class="container">
             <a href="/{{.Name}}">
-            <img src="/static/icons/{{.Class}}-{{.Name}}.png" 
-              width="100" height="100" 
-              class="{{.Tag}}"
-              alt="{{.Class}} {{.Name}}" />
-            <div class="content">
-              <p>{{.Name }}</p>
-            </div>
+              <img src="/static/icons/{{.Class}}-{{.Name}}.png" width="100" height="100" class="{{.Tag}}"
+                alt="{{.Class}} {{.Name}}" />
+              <div class="content">
+                <p>{{.Name }}</p>
+              </div>
             </a>
-          </div>  
-          </li>
-          {{end}}
-        </ul>
-        <div class="footer">
-          <p><i class="fa-solid fa-book-skull"></i> Plunderdex is a checklist/database for exploring the Plunderverse created by <a href="https://lonecoconut.com/">LoneCoconut</a>.</p>
-          <p>You can sort the library of Plunderlings, Plunderlongs, Plunderstrongs, and Accessories. This is a work by a fan, so for more information, go to the official home of Plunderlings at <a href="https://www.plunderlings.com/">Plunderlings.com</a></p>
-        </div>
-    </main>
-  </body>
+          </div>
+        </li>
+        {{end}}
+      </ul>
+    </div>
+    <div class="footer">
+      <p><i class="fa-solid fa-book-skull"></i> Plunderdex is a checklist/database for exploring the Plunderverse
+        created by <a href="https://lonecoconut.com/">LoneCoconut</a>.</p>
+      <p>You can sort the library of Plunderlings, Plunderlongs, Plunderstrongs, and Accessories. This is a work by a
+        fan, so for more information, go to the official home of Plunderlings at <a
+          href="https://www.plunderlings.com/">Plunderlings.com</a></p>
+    </div>
+  </main>
+</body>
+
 </html>

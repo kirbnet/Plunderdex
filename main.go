@@ -13,11 +13,6 @@ import (
 	"github.com/gorilla/mux"
 )
 
-/* TODO:
-- Add Accessory Search
-	- Reverse lookup - who had what? Frog, Backpack, etc.
-*/
-
 //Global Variables
 var plunderlings Plunderlings
 var plunderclasses []string
@@ -57,6 +52,7 @@ func main() {
 	router.HandleFunc("/tag/{tag}", tagHandler)
 	router.HandleFunc("/search", searchHandler)
 	router.HandleFunc("/{figure}", figureHandler)
+	router.HandleFunc("/accessory/{accessory}", accessoryHandler)
 
 	//Static Resources
 	fs := http.FileServer(http.Dir("./static"))
@@ -258,6 +254,25 @@ func tagsHandler(w http.ResponseWriter, r *http.Request) {
 	tpl.Execute(w, pagedata)
 }
 
+//Search for an accessory
+func accessoryHandler(w http.ResponseWriter, r *http.Request) {
+	var foundlings Plunderlings
+
+	//parse request data
+	reqvars := mux.Vars(r)
+	accessory := reqvars["accessory"]
+	for _, individual := range plunderlings.Plunderlings {
+		for _, acc := range individual.Accessories {
+			if strings.Contains(acc, accessory) {
+				foundlings.AddItem(individual)
+			}
+		}
+	}
+	//display the new subset
+	pagedata := &PageData{foundlings, plunderclasses, plunderfolks, plundercolors, plunderwaves, plundertags}
+	tpl.Execute(w, pagedata)
+}
+
 //Display single "tag"
 func tagHandler(w http.ResponseWriter, r *http.Request) {
 	var justOneTag Plunderlings
@@ -307,13 +322,14 @@ func (plunderlings *Plunderlings) AddItem(plunderling Plunderling) {
 }
 
 type Plunderling struct {
-	Name        string `json:"name"`
-	Class       string `json:"class"`
-	Color       string `json:"color"`
-	Notes       string `json:"notes"`
-	Plunderfolk string `json:"plunderfolk"`
-	Wave        string `json:"wave"`
-	Tag         string `json:"tag"`
+	Name        string   `json:"name"`
+	Class       string   `json:"class"`
+	Color       string   `json:"color"`
+	Notes       string   `json:"notes"`
+	Plunderfolk string   `json:"plunderfolk"`
+	Wave        string   `json:"wave"`
+	Tag         string   `json:"tag"`
+	Accessories []string `json:"accessories"`
 }
 
 //Create a slice of "plunderfolk"s based on data set
