@@ -30,58 +30,57 @@
 </head>
 
 <body>
-  <main>
-    <header>
-      <div class="menu">
-        <a class="active" href="/"><i class="fa-solid fa-book-skull"></i> Plunderdex</a>
-        <div class="submenu">
-          <a href="/class/" class="submenu-item"><i class="fa-solid fa-skull-crossbones"></i> CLASS <i
-              class="fa fa-caret-down"></i></a>
-          <div class="submenu-content">
-            {{range .Classes}}
-            <a href="/class/{{ .}}">{{ .}}</a>
-            {{end}}
-          </div>
-        </div>
-        <div class="submenu">
-          <a href="/color/" class="submenu-item"><i class="fa-solid fa-palette"></i> COLOR <i
-              class="fa fa-caret-down"></i></a>
-          <div class="submenu-content">
-            {{range .Colors}}
-            {{if .}}
-            <a href="/color/{{ .}}">{{ .}}</a>
-            {{end}}
-            {{end}}
-          </div>
-        </div>
-        <div class="submenu">
-          <a href="/plunderfolk/" class="submenu-item"><i class="fa-solid fa-face-smile"></i> PLUNDERFOLK <i
-              class="fa fa-caret-down"></i></a>
-          <div class="submenu-content">
-            {{range .Plunderfolks}}
-            {{if .}}
-            <a href="/plunderfolk/{{.}}">{{ .}}</a>
-            {{end}}
-            {{end}}
-          </div>
-        </div>
-        <div class="submenu">
-          <a href="/wave/" class="submenu-item"><i class="fa-solid fa-flag"></i> WAVE <i
-              class="fa fa-caret-down"></i></a>
-          <div class="submenu-content">
-            {{range .Waves}}
-            <a href="/wave/{{.}}">{{ .}}</a>
-            {{end}}
-          </div>
-        </div>
-        <div class="search-container">
-          <form action="/search" method="GET">
-            <input type="text" placeholder="Search..." name="search" />
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
+  <header>
+    <div class="menu">
+      <a class="active" href="/"><i class="fa-solid fa-book-skull"></i> Plunderdex</a>
+      <div class="submenu">
+        <a href="/class/" class="submenu-item"><i class="fa-solid fa-skull-crossbones"></i> CLASS <i
+            class="fa fa-caret-down"></i></a>
+        <div class="submenu-content">
+          {{range .Classes}}
+          <a href="/class/{{ .}}">{{ .}}</a>
+          {{end}}
         </div>
       </div>
-    </header>
+      <div class="submenu">
+        <a href="/color/" class="submenu-item"><i class="fa-solid fa-palette"></i> COLOR <i
+            class="fa fa-caret-down"></i></a>
+        <div class="submenu-content">
+          {{range .Colors}}
+          {{if .}}
+          <a href="/color/{{ .}}">{{ .}}</a>
+          {{end}}
+          {{end}}
+        </div>
+      </div>
+      <div class="submenu">
+        <a href="/plunderfolk/" class="submenu-item"><i class="fa-solid fa-face-smile"></i> PLUNDERFOLK <i
+            class="fa fa-caret-down"></i></a>
+        <div class="submenu-content">
+          {{range .Plunderfolks}}
+          {{if .}}
+          <a href="/plunderfolk/{{.}}">{{ .}}</a>
+          {{end}}
+          {{end}}
+        </div>
+      </div>
+      <div class="submenu">
+        <a href="/wave/" class="submenu-item"><i class="fa-solid fa-flag"></i> WAVE <i class="fa fa-caret-down"></i></a>
+        <div class="submenu-content">
+          {{range .Waves}}
+          <a href="/wave/{{.}}">{{ .}}</a>
+          {{end}}
+        </div>
+      </div>
+      <div class="search-container">
+        <form action="/search" method="GET">
+          <input type="text" placeholder="Search..." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <main>
     <div class="page-content">
       <div class="singleton-background"></div>
       <div class="singleton-body">
@@ -111,6 +110,9 @@
         </div>
       </div>
     </div>
+  </main>
+
+  <footer>
     <div class="footer">
       <p><i class="fa-solid fa-book-skull"></i> Plunderdex is a checklist/database for exploring the Plunderverse
         created by <a href="https://lonecoconut.com/">LoneCoconut</a>.</p>
@@ -118,7 +120,7 @@
         fan, so for more information, go to the official home of Plunderlings at <a
           href="https://www.plunderlings.com/">Plunderlings.com</a></p>
     </div>
-  </main>
+  </footer>
 </body>
 
 </html>
