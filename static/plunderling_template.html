@@ -85,28 +85,53 @@
       <div class="singleton-background"></div>
       <div class="singleton-body">
         <div class="column">
-          <img src="/static/icons/{{.Figure.Class}}-{{.Figure.Name}}.png" width="200" height="200"
+          <img src="/static/images/{{.Figure.Class}}-{{.Figure.Name}}.png"
             alt="{{.Figure.Class}} {{.Figure.Name}}" />
         </div>
         <div class="column">
-          <h4>Name: {{.Figure.Name}}</h4>
-          <ul class="singleton-details">
-            <li>Class: <a href="/class/{{.Figure.Class}}">{{.Figure.Class}}</a></li>
-            <li>Color: <a href="/color/{{.Figure.Color}}">{{.Figure.Color}}</a></li>
-            <li>Release: <a href="/wave/{{.Figure.Wave}}">{{.Figure.Wave}}</a></li>
-            <li>Plunderfolk: <a href="/plunderfolk/{{.Figure.Plunderfolk}}">{{.Figure.Plunderfolk}}</a></li>
-            <li>Notes: {{.Figure.Notes}}</li>
+          <table class="details">
+            <tr class="detailrow">
+              <th colspan="2" class="detailheader"><h4>{{.Figure.Name}}</h4></th>
+            </tr>
+            <tr class="detailrow">
+              <td>Class:</td>
+              <td><a href="/class/{{.Figure.Class}}">{{.Figure.Class}}</a></td>
+            </tr>
+            <tr class="detailrow">
+              <td>Color:</td>
+              <td><a href="/color/{{.Figure.Color}}">{{.Figure.Color}}</a></td>
+            </tr>
+            <tr class="detailrow">
+              <td>Release:</td>
+              <td><a href="/wave/{{.Figure.Wave}}">{{.Figure.Wave}}</a></td>
+            </tr>
+            <tr class="detailrow">
+              <td>Plunderfolk:</td>
+              <td><a href="/plunderfolk/{{.Figure.Plunderfolk}}">{{.Figure.Plunderfolk}}</a></td>
+            </tr>
+            {{if .Figure.Notes}}
+            <tr class="detailrow">
+              <td>Notes:</td>
+              <td>{{.Figure.Notes}}</td>
+            </tr>
+            {{end}}
             {{if .Figure.Tag}}
-            <li>Tag: <a href="/tag/{{.Figure.Tag}}">{{.Figure.Tag}}</a></li>
+            <tr class="detailrow">
+              <td>Tag:</td>
+              <td><a href="/tag/{{.Figure.Tag}}">{{.Figure.Tag}}</a></td>
+            </tr>
             {{end}}
             {{if .Figure.Accessories}}
-            <li>Accessories:
-              {{range $accessory := .Figure.Accessories}}
-              <a href="/accessory/{{$accessory}}">{{$accessory}}</a>
-              {{end}}
-            </li>
+            <tr class="detailrow">
+              <td>Accessories:</td>
+              <td>
+                {{range $accessory := .Figure.Accessories}}
+                <li><a href="/accessory/{{$accessory}}">{{$accessory}}</a></li>
+                {{end}}
+              </td>
+            </tr>
             {{end}}
-          </ul>
+          </table>
         </div>
       </div>
     </div>

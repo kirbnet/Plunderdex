@@ -163,6 +163,12 @@ footer {
 
 .footer p {}
 
+/* Scaling Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
 
@@ -292,6 +298,28 @@ a {
 
 .column {
     flex: 50%;
+}
+
+th,
+td {
+    padding: 0.5em;
+}
+
+.details {
+    text-align: left;
+    width: 100%;
+}
+
+.detailheader {
+    text-align: center;
+}
+
+.detailrow:nth-child(even) {
+    background-color: #0b331581;
+}
+
+.detailrow:nth-child(odd) {
+    background-color: #00000081;
 }
 
 ul {
