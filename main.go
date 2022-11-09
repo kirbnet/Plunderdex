@@ -61,7 +61,7 @@ func main() {
 	http.ListenAndServe(":"+port, router)
 }
 
-//Main page and default handler. Displays everything.
+//Single figure display
 func figureHandler(w http.ResponseWriter, r *http.Request) {
 	var myfigure Plunderling
 
@@ -74,7 +74,7 @@ func figureHandler(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	//display new subset
-	pagedata := &FigurePageData{myfigure, plunderclasses, plunderfolks, plundercolors, plunderwaves, plundertags}
+	pagedata := &FigurePageData{myfigure, template.HTML(myfigure.Bio), plunderclasses, plunderfolks, plundercolors, plunderwaves, plundertags}
 	indvtpl.Execute(w, pagedata)
 }
 
@@ -97,7 +97,8 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 			strings.Contains(individual.Color, q) ||
 			strings.Contains(individual.Name, q) ||
 			strings.Contains(individual.Notes, q) ||
-			strings.Contains(individual.Plunderfolk, q) {
+			strings.Contains(individual.Plunderfolk, q) ||
+			strings.Contains(individual.Bio, q) {
 			foundlings.AddItem(individual)
 		}
 	}
@@ -330,6 +331,7 @@ type Plunderling struct {
 	Wave        string   `json:"wave"`
 	Tag         string   `json:"tag"`
 	Accessories []string `json:"accessories"`
+	Bio         string   `json:"bio"`
 }
 
 //Create a slice of "plunderfolk"s based on data set
@@ -426,6 +428,7 @@ type PageData struct {
 }
 type FigurePageData struct {
 	Figure       Plunderling
+	BioData      template.HTML
 	Classes      []string
 	Plunderfolks []string
 	Colors       []string

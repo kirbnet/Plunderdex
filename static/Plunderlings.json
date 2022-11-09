@@ -28,7 +28,8 @@
                 "Large Open Hands",
                 "Large Gripping Hands",
                 "Small Walloping Fists"
-            ]
+            ],
+            "bio": "Mango the Berserker aka 'El Diablo Naranja' aka 'The Tangerine Tyrant' is a skilled fighter and grappler. This masked Plunderstrong always stands tall with pride because he is the one and only Champion Belt Holder in the famous LUCHA DE LAS PALMAS tourney, where he also won his legendary gilded axe. He loves to please an audience and garner attention from his adoring fans. But nothing gets him more worked up than finding a challenger that lets him show off his formidable strength with flair. If it's a competition you better believe he is in it to win, no matter the cost."
         },
         {
             "name": "Pyke",
@@ -43,7 +44,8 @@
                 "Slingshot Rifle",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Pyke the Berserker is a Plunderlong of few words. This stoic character has dedicated his life to the way of the spear of which he was trained by an ancient master. If you are caught sneaking about the ship he is the last person you want to run into because you will definitely find yourself on the wrong side of his lance. Being fiercely loyal to his captain, you couldn't choose a better guard to have your back and protect the loot. Since sometimes the best defense is a good offense, he can snipe his enemies with his long-range slingshot rifle just so that they don't get any ideas."
         },
         {
             "name": "Spurt",
@@ -88,7 +90,8 @@
                 "Large Open Hands",
                 "Large Gripping Hands",
                 "Small Walloping Fists"
-            ]
+            ],
+            "bio": "Captain BlacJak is one Plunderstrong you don’t want to mess with. He quickly rose through the ranks with a ruthlessness which inspires fear even within his accomplished crew. Impatient and bad-tempered, he is not one for words rather letting his cannonballs do the talking. With his handheld cannon, he is capable of blasting entire ships apart. He learned his cruelty from back when he used to be first mate to <a href=\"/Ojoe\">Captain Ojoe<\/a>, but that was before the accident. "
         },
         {
             "name": "Ojoe",
@@ -105,7 +108,8 @@
                 "Slingshot Pistol",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Captain Ojoe was once the most feared Plunderlong of the plundered isles until he vanished and was thought to be dead. But what was once thought to be just the whispers of sailors turned out to be true, and the great Captain Ojoe has returned to take his rightful place amongst the pirate commanders. It seems he has come back with new injuries as well as a chip on his shoulder to take down those that have wronged him in the past. Believing the hand of fate is on his side, this experienced tactician and militant leader makes for the most terrifying of foes."
         },
         {
             "name": "Teel",
@@ -134,7 +138,8 @@
                 "Lango's Claw Spear",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Cursed Cayo was once just an unlucky Plunderlong who washed ashore on a desert island. Desperate, he learned to spear fish and eat just about anything that swam by the island. One fateful day he caught and devoured a strange lobster. Unknowingly, he had consumed LANGO THE EVERLIVING CRUSTACEAN. It passed its mystical inability to die of natural causes to Cayo. Uncountable years passed and Cayo perfected his spear hunting, even able to strike a single seagull out of the sky from miles away. Eventually, Cayo was discovered and now Plunderfolk come to train under his unrivaled polearm technique, although many speculate he has gone mad from sunstroke."
         },
         {
             "name": "Fury",
@@ -179,7 +184,8 @@
                 "Large Open Hands",
                 "Large Gripping Hands",
                 "Small Walloping Fists"
-            ]
+            ],
+            "bio": "The Cursed Naufrag is a parasitic nautilus, that happened upon an unfortunate Plunderstrong sinking into the ocean’s abyss. As a small shellfish it once had the terrifying experience of being caught in a fishing net, and since then has vowed to make the landlubbers suffer. Seizing the opportunity the Naufrag attached itself to the drowning deckhand, taking over his mind and transforming his body into a crab-clawed abomination. It now plans to make the most of its host, terrorizing Plunderfolk and causing chaos to those who dare sail near its waters. Called The Blue Barnacle (a name which he despises) the Napoleonic Naufrag’s maniacal ego has made him a threat to all who stand in its way to nautical domination!"
         },
         {
             "name": "Abyss",
@@ -195,7 +201,8 @@
                 "Permafrost Anchor Spear",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "The Plunderling Drench Abyss was forged growing up to defend itself from the benthic monstrosities. Perhaps their most titanic feat was fashioning a polearm out of a glacier with it’s own claws.. Now having fought its way to the surface, Abyss finds the Plunderfolk sailors to be easy pickings. Don’t bother begging because few Drench have a heart as black as the icy Abyss!"
         },
         {
             "name": "Arctic",
@@ -211,7 +218,8 @@
                 "Necklace",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Our frozen friend comes from the frigid far reaches of the Plunderverse: a chilling figure wielding a spear of ice. Found embedded in a block of ice and naively defrosted under the hot island sun, Arctic’s long-dormant pirate-hunting tendencies have thawed as well. Sailors beware, for this glacial drench is almost imperceptible underwater due to his transparent body!"
         },
         {
             "name": "Gills",
@@ -225,7 +233,8 @@
                 "Anchor attached to Chain",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Gills is one of the Plunderlong Drench that remembers life before the swampening. Gills larger brain also makes him more dangerous, coordinating attacks on unsuspecting sailors with the other Drench in his school. Armed with a hefty anchor and icy steel chains he drags down his victims into the dark watery depths where they are rarely seen again. This coldblooded webfooted deviant is a danger to all those who enjoy breathing air."
         },
         {
             "name": "Bubbler",
@@ -256,7 +265,8 @@
                 "Turtle Shell Backpack",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Koral is the sneakiest of the Drench and functions as a scout to plan and gather information for future ambushes on Pirate enclaves and ports. Its seaweed mask helps muffle its breathing and unintended laughter."
         },
         {
             "name": "Maru",
@@ -273,7 +283,8 @@
                 "Turtle Shell Backpack",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Its full name is Larimaru after the precious stone. But don't be deceived by its enchanting color, it is an experienced and dangerous hunter. Its tooth necklace shows its history of successfully trapped prey. The Drench's diet is pretty undiscerning, so if you happen to cross Maru's path, hope he doesn't see you."
         },
         {
             "name": "Swump",
@@ -304,7 +315,8 @@
                 "Large Open Hands",
                 "Large Gripping Hands",
                 "Small Walloping Fists"
-            ]
+            ],
+            "bio": "When the Drench attack, you know you are in for a storm of trouble...though if Plunderstrong Typhoon is partaking, you are in for an entirely different category of hurricane. Once he has latched onto the hull, he uses his powerful tentacles to easily pull himself on board. Then using a massive sawfish sword he can easily carve through a ship in mere minutes. A rare sighting of this drench usually spells an early end to any voyage- only sailors of wit may have an advantage as Typhoon is not known to be very bright."
         },
         {
             "name": "Floot",
@@ -312,7 +324,7 @@
             "color": "mint",
             "plunderfolk": "Plunderling",
             "wave": "Fawns",
-            "notes":"Originally called 'Rayn'",
+            "notes": "Originally called 'Rayn'",
             "accessories": [
                 "Curved Blade",
                 "Double Flute",
@@ -349,7 +361,8 @@
                 "Vine Harp",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Plunderlong Marsh is one of the defenders of the forest’s of the Fawn. Marsh lives an isolated life patrolling the perimeters of his mangroves. When galloping with his four hooves he is impossible to outrun. Always on the lookout for intruding troublemakers, he can detect even the smallest disturbance made to his terrain. It is said that when he is not chasing down lowlives with his lance, and when the night grows cool, Marsh is overcome with somber memories of a time long gone. Memories which he honors by playing sweet sad melodies on his harp."
         },
         {
             "name": "Roam",
@@ -366,7 +379,8 @@
                 "Large Open Hands",
                 "Large Gripping Hands",
                 "Small Walloping Fists"
-            ]
+            ],
+            "bio": "Plunderstrong Fawn Roam wanders the wilderness collecting berries and fruit. Usually found at the foot of his mountains, Roam is mostly peaceful and enjoys finding new rhythms through combining the sounds of stomping his hooves and playing the bongo. But if you break him out of his flow and he misses beat, you will discover his unstoppable strength. Under his thick pelt of fur he hides massive rippling muscles capable of uprooting trees with ease. If somehow you manage to befriend him you will find yourself a powerful ally, but that is easier said than done."
         },
         {
             "name": "8-Ball",
@@ -381,7 +395,8 @@
                 "Shell Torch w/ removable Fire Effect",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "8-Ball is a Feral Plunderlong who was found as a hatchling in a barrel of gunpowder. Since then he has been singularly obsessed with thrill-seeking. Eventually, his escalating need for speed had him resort to crawling into cannons just for the exhilaration of being blasted out and soaring incredible distances. Luckily for this unhinged adrenaholic, the Plunderfolk love to celebrate the bold! ...even though his madcap antics as well as his little regard for safety are known to occasionally sabotage his own crew's missions."
         },
         {
             "name": "Cheddar",
@@ -437,7 +452,8 @@
                 "Large Open Hands",
                 "Large Gripping Hands",
                 "Small Walloping Fists"
-            ]
+            ],
+            "bio": "Poncho, the Nomad Plunderstrong, contradicts the notion that the palm tree should curve to the wind. He would sooner face a hurricane than betray his unwavering moral compass. Training for years to become the fastest cannon-slinger to win the LUCHA DE LAS PALMAS, only receive a silver belt -  a decision he deemed to have been deeply unfair. Now the only way to right the world that wronged him is to find, defeat and unmask the wrestler that stole his title. Wandering from port to port he asks for the <a href=\"/Mango\">'El Diablo Naranja'</a> while enforcing his grim unsmiling justice on the local skirmishes he happens upon along the way."
         },
         {
             "name": "Swash",
@@ -453,7 +469,8 @@
                 "Small Leather Cuffs",
                 "Pair of Small Gloved Open Hands",
                 "Pair of Small Gloved Gripping Hands"
-            ]
+            ],
+            "bio": "Oh, Swash... you may have heard his name followed by a loving sigh from his many swooning admirers. This infamous Nomad Plunderlong has taken much gold and captured many hearts with his legendary sword fighting and natural night vision. Swash primarily targets pirates' ill-gotten loot for... well... himself! He erroneously thinks Plunderfolk love him for his lackluster cuatro playing and his objectively awful singing. If you hear his tone-deaf song prepare yourselves because you're about to be besieged by Swash!"
         },
         {
             "name": "Tuff",
@@ -483,7 +500,8 @@
                 "Two Daggers",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Ace the Raider is just your regular sword-swallowing, knife-flinging, dagger-juggling Plunderlong. His silver tongue and razor-sharp wit are as dangerous as his blades. Blessed and burdened with the gift of gab, he talks his way into almost as many problems as he talks himself out of. When he starts spinning the yarn about one of his tall tales, be careful what you believe… you can be sure this crafty fiend has ulterior motives in store."
         },
         {
             "name": "Blitz",
@@ -499,7 +517,8 @@
                 "Large Open Hands",
                 "Large Gripping Hands",
                 "Small Walloping Fists"
-            ]
+            ],
+            "bio": "Blitz the Raider has an insatiable appetite for eating and fighting. This Plunderstrong is always eager to prove himself in combat and will be the first to board an enemy ship even when he is at a clear disadvantage. This not-so-jolly green giant is most dangerous when he is hangry because he is overcome by a gluttonous rage. The only way to stop his rampage is by being knocked unconscious or a good old-fashioned home-cooked meal of hearty proportions."
         },
         {
             "name": "Fwush",
@@ -591,7 +610,8 @@
                 "Monkey Wrench",
                 "Pair of Small Open Hands",
                 "Pair of Small Gripping Hands"
-            ]
+            ],
+            "bio": "Rusty, the Plunderlong Tinker, is absolutely certain that the Plunderfolk are on the cusp of a great mechanical revolution. This engineer cut his teeth working the docks of the bustling dock-city, The Big Anchor, but his restless mind is always coming up with insane solutions to impossible engineering problems. If you have repairs that no other mechanic will touch, Rusty is your guy. Just make sure you carry enough shinies to pay up. His fees are high to cover his costly research into experimental machine-making. And if you try to bargain with his genius, he’ll have no problem giving you a good wack with his massive monkey wrench!  Something which he also does regularly to get his inventions working."
         },
         {
             "name": "Skiff",
@@ -609,7 +629,8 @@
                 "Large Open Hands",
                 "Large Gripping Hands",
                 "Small Walloping Fists"
-            ]
+            ],
+            "bio": "Once a great Plunderstrong admiral, the retired Tinker Skiff, now keeps mostly to himself… spending his days fishing on a small rickety boat. He’s haunted by the memories of the destruction of his once prosperous fleet… By what exactly? Nobody knows for sure. Especially since Skiff's description of the event seems to be vague and borderline supernatural. What we do know is that the catastrophe left him maimed and nearly dead since he refused to abandon his ship. Continuing in keeping with that promise even his small boat is rumored to have been built from the wreckage of his once regal vessel. Vowing never to be caught off-guard again, Skiff welded his own cannon-arm in order to be ever-ready to blast away his enemies… whether they are real, or imaginary. Wary fisherman tend to stay away from Skiff’s little boat as he is often seen charging into the open sea in the middle of the night shooting his cannon into the air while shouting incoherent battle cries."
         },
         {
             "name": "Boom Crate",
@@ -622,7 +643,8 @@
                 "Stone Ball",
                 "Coconut Ball",
                 "Spiked Ball"
-            ]
+            ],
+            "bio": "Hit the deck! If you want to take on the biggest battles in all the sea you’ll need the baddest demolitions. For the cannoneers and explosives enthusiasts in your crew, a variety of ammo is a must.  Compatible with Plunderstrong <a href=\"/Blacjak\">Captain BlacJak</a>'s handheld cannon, Plunderstrong <a href=\"/Poncho\">Nomad Poncho</a>'s cannon-pistols and Plunderstrong <a href=\"/Skiff\">Tinker Skiff</a>'s Cannon-Arm."
         },
         {
             "name": "Hatchling Crate",
@@ -631,7 +653,8 @@
             "accessories": [
                 "Two Hatchlings Bodies",
                 "Pair of Small Walloping Hands"
-            ]
+            ],
+            "bio": "With a Plunderling Hatchling Crate you can see even the Plunderlongs and Plunderstrongs were young once! Experience the joys of child-rearing yourself by buying a crate add-on for each of your toys. By using your extra hands and heads you can make 2 additional mini figures for your shelves. "
         },
         {
             "name": "Iron Crate",
@@ -643,7 +666,8 @@
                 "Rapier Sword",
                 "Two Cutlasses",
                 "Two Hand Axes"
-            ]
+            ],
+            "bio": "Feeling a bit edgy? Do you want to take a stab at swordsmanship? Ready to strike while the iron is hot? Well, look no further! This Plunderlong Iron Crate is packed with accessories that are a cut above the rest."
         },
         {
             "name": "Leather Crate",
@@ -658,7 +682,8 @@
                 "Pair of Small Gloved Gripping Hands",
                 "Pair of Small Gloved Walloping Hands",
                 "Three Pairs of Small Leather Cuffs"
-            ]
+            ],
+            "bio": "Sometimes on long voyages the nights get a bit chilly. So keep your plunderbootys warm with the Plunderlong Leather Crate filled with cloth goods. Sailors can only tie  knots as long as they can feel their fingers.  Also discretion can be key, and with this mask you can  keep people from remembering your long face when you are helping yourself to a four-finger-discount. "
         },
         {
             "name": "Muscle Crate",
@@ -668,7 +693,8 @@
                 "Two Large Walloping Hands",
                 "Two Large Pinching Hands to Grip Small Items",
                 "Two Large Magnetic Grabbing Hands to Hold Cannonballs and Large Heads"
-            ]
+            ],
+            "bio": "Let's get swole! The Plunderstrong Muscle Crate (available in all unlocked colors) will allow you to get the most out of your Plunderstrong. With these crates, they can PUNCH, HURL cannonballs, and PINCH smaller items."
         },
         {
             "name": "Steel Crate",

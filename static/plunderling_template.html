@@ -85,13 +85,14 @@
       <div class="singleton-background"></div>
       <div class="singleton-body">
         <div class="column">
-          <img src="/static/images/{{.Figure.Class}}-{{.Figure.Name}}.png"
-            alt="{{.Figure.Class}} {{.Figure.Name}}" />
+          <img src="/static/images/{{.Figure.Class}}-{{.Figure.Name}}.png" alt="{{.Figure.Class}} {{.Figure.Name}}" />
         </div>
         <div class="column">
           <table class="details">
             <tr class="detailrow">
-              <th colspan="2" class="detailheader"><h4>{{.Figure.Name}}</h4></th>
+              <th colspan="2" class="detailheader">
+                <h4>{{.Figure.Name}}</h4>
+              </th>
             </tr>
             <tr class="detailrow">
               <td>Class:</td>
@@ -128,6 +129,13 @@
                 {{range $accessory := .Figure.Accessories}}
                 <li><a href="/accessory/{{$accessory}}">{{$accessory}}</a></li>
                 {{end}}
+              </td>
+            </tr>
+            {{end}}
+            {{if .BioData}}
+            <tr class="detailrow">
+              <td colspan="2">
+                {{.BioData}}
               </td>
             </tr>
             {{end}}
