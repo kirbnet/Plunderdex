@@ -190,6 +190,10 @@ img {
         display: none;
     }
 
+    .menu .submenu-title {
+        display: none;
+    }
+
     /* footer */
     .footer {
         left: 0;

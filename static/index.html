@@ -12,10 +12,10 @@
 
 <body>
   <header>
-    <div class="menu">
+  <div class="menu">
       <a class="active" href="/"><i class="fa-solid fa-book-skull"></i> Plunderdex</a>
       <div class="submenu">
-        <a href="/class/" class="submenu-item"><i class="fa-solid fa-skull-crossbones"></i> CLASS <i
+        <a href="/class/" class="submenu-item"><i class="fa-solid fa-skull-crossbones"></i> <span class="submenu-title">CLASS</span> <i
             class="fa fa-caret-down"></i></a>
         <div class="submenu-content">
           {{range .Classes}}
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="submenu">
-        <a href="/color/" class="submenu-item"><i class="fa-solid fa-palette"></i> COLOR <i
+        <a href="/color/" class="submenu-item"><i class="fa-solid fa-palette"></i> <span class="submenu-title">COLOR</span> <i
             class="fa fa-caret-down"></i></a>
         <div class="submenu-content">
           {{range .Colors}}
@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="submenu">
-        <a href="/plunderfolk/" class="submenu-item"><i class="fa-solid fa-face-smile"></i> PLUNDERFOLK <i
+        <a href="/plunderfolk/" class="submenu-item"><i class="fa-solid fa-face-smile"></i> <span class="submenu-title">PLUNDERFOLK</span> <i
             class="fa fa-caret-down"></i></a>
         <div class="submenu-content">
           {{range .Plunderfolks}}
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="submenu">
-        <a href="/wave/" class="submenu-item"><i class="fa-solid fa-flag"></i> WAVE <i class="fa fa-caret-down"></i></a>
+        <a href="/wave/" class="submenu-item"><i class="fa-solid fa-flag"></i> <span class="submenu-title">WAVE</span> <i class="fa fa-caret-down"></i></a>
         <div class="submenu-content">
           {{range .Waves}}
           <a href="/wave/{{.}}">{{ .}}</a>
@@ -54,7 +54,7 @@
         </div>
       </div>
       <div class="submenu">
-        <a href="/tag/" class="submenu-item"><i class="fa-solid fa-hashtag"></i> TAG <i
+        <a href="/tag/" class="submenu-item"><i class="fa-solid fa-hashtag"></i> <span class="submenu-title">TAG</span> <i
             class="fa fa-caret-down"></i></a>
         <div class="submenu-content">
           {{range .Tags}}
@@ -65,11 +65,11 @@
         </div>
       </div>
       <!-- <div class="search-container">
-            <form action="/search" method="GET">
-              <input type="text" placeholder="Search..." name="search" />
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-          </div> -->
+        <form action="/search" method="GET">
+          <input type="text" placeholder="Search..." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>-->
     </div>
   </header>
   <main>
