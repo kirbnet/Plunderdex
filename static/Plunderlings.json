@@ -617,7 +617,6 @@
             "name": "Skiff",
             "class": "Tinker",
             "color": "teal",
-            "tag": "Unreleased",
             "plunderfolk": "Plunderstrong",
             "wave": "Kickstarter: Plunderlong and Plunderstrong",
             "accessories": [
@@ -726,6 +725,52 @@
                 "Slingshot Rifle",
                 "Battle-Damanged Shield"
             ]
+        },
+        {
+            "name": "Flynch",
+            "class": "Raider",
+            "color": "green",
+            "plunderfolk": "Plunderbeak",
+            "wave": "Plunderbeak",
+            "accessories": [
+                "Modular Reversible Wings",
+                "3 pairs of hands",
+                "Magnetic Beanie Hat",
+                "Cutlass Sword",
+                "Leather Sash"
+            ],
+            "bio": "The bird-brained Flynch is a raider. Plunderbeak couldn't outsmart a coconut, but what he lacks in wits he makes up for in enthusiasm. While he's always ready for action, he might not always be entirely sure what that action is. Sometimes he'll circle a ship for hours, having forgotten the signal to dive. While Flynch might be the reason half their ambushes go sideways, he still believes he's the brains of the operation."
+        },
+        {
+            "name": "Quervo",
+            "class": "Berserker",
+            "color": "black",
+            "plunderfolk": "Plunderbeak",
+            "wave": "Plunderbeak",
+            "accessories": [
+                "Modular Reversible Wings",
+                "3 pairs of hands",
+                "Magnetic Morion Helmet",
+                "Hook Blade & Rope",
+                "Rope Bandolier"
+            ],
+            "bio": "Quervo is a Berserker Plunderbeak who is always itching for a fight and swooping headfirst into battle. Wielding his signature hooked blade and rope with savage precision, he's able to snatch up treasure chests and crates right off the deck. Quervo doesn't ask many questions, nor does he wait for plans; he just attacks. <a href=\"/LongBill\">Captain LongBill</a> considers him a 'blunt instrument,' which Quervo takes as a compliment."
+        },
+        {
+            "name": "Longbill",
+            "class": "Captain",
+            "color": "white",
+            "plunderfolk": "Plunderbeak",
+            "wave": "Plunderbeak",
+            "accessories": [
+                "Modular Reversible Wings",
+                "3 pairs of hands",
+                "Magnetic Feathered Bicorn Hat",
+                "Rapier Sword",
+                "Ruffled Shirt"
+            ],
+            "bio": "Captain LongBill is a scheming Plunderbeak who fancies himself the gentleman of the skies, but in truth, he's just as much of a scavenger as the rest. He circles wounded ships with his crew like opportunistic vultures. Insisting on being addressed as \"The Captain\" by all, LongBill never gets his own feathers dirty if he can help it; that’s what his two lackeys are for, <a href=\"/Flynch\">Flynch</a> and <a href=\"/Quervo\">Quervo</a>. "
         }
+        
     ]
 }
